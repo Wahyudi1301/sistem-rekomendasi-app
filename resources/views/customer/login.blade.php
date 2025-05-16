@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Rental Outdoor</title> {{-- Judul disesuaikan --}}
+    <title>Login - Wahyudi Teknik</title> {{-- Judul disesuaikan --}}
 
     {{-- Sesuaikan path jika struktur asset Anda berbeda --}}
     <link rel="stylesheet" href="{{ asset('assets/compiled/css/app.css') }}">
@@ -32,7 +32,7 @@
                         </a>
                     </div>
                     <h1 class="auth-title">Log in.</h1>
-                    <p class="auth-subtitle mb-5">Masuk dengan akun rental Anda.</p> {{-- Teks disesuaikan --}}
+                    <p class="auth-subtitle mb-5">Masuk dengan akun anda.</p> {{-- Teks disesuaikan --}}
 
                     {{-- Include alert partial dari admin (atau buat partial khusus auth) --}}
                     @include('customer.partials.alerts')

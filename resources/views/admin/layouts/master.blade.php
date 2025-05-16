@@ -65,12 +65,12 @@
                 <div class="footer clearfix mb-0 text-muted">
                     <div class="float-start">
                         {{-- Copyright kamu --}}
-                        <p>{{ date('Y') }} © DevKita</p>
+                        <p>{{ date('Y') }} © WSPteknik</p>
                     </div>
                     <div class="float-end">
                         {{-- Credit Mazer (sesuai template) --}}
                         <p>Crafted with <span class="text-danger"><i class="bi bi-heart-fill icon-mid"></i></span>
-                            by <a href="https://devkita.com" target="_blank">DevKita Team</a></p>
+                            by <a href="https://wspteknik.com" target="_blank">Wahyudi Team</a></p>
                     </div>
                 </div>
             </footer>
