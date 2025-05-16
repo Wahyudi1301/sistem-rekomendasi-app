@@ -165,7 +165,7 @@ class BrandController extends Controller
      * Menerima hashid sebagai parameter string.
      */
     public function destroy($brand_hash) // <-- Parameter adalah hash string
-    {
+       {
         $decodedId = Hashids::decode($brand_hash); // <-- Decode hashid
 
         // Cek jika decode gagal atau array kosong
